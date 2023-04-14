@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    border: solid black;
+}
+
+.container {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 20%;
+
+}
+
+left {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rct {
+    color: brown;
+}
+
+.mmr {
+    color: orangered;
+}
+
+.vbl {
+    color: green;
+}
+
+.vsl {
+    color: rgb(10, 10, 55);
+}
+
+.left button {
+    color: white;
+    background-color: grey;
+}
