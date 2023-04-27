@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: row;
     width: 350px;
+    text-align: center;
+    margin-left:200px;
 
 }
 
@@ -13,46 +15,74 @@ body {
     padding-top: 20%;
     border-radius: 20px;
     text-align: center;
+    width: 300PX;
+
 
 }
 
-left {
-    background-color: blue;
+.left {
+    background-color: whitesmoke;
     color: black;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    
+    margin-left: 1px;
+    height: 86vh;
+    width: 30vw;
+    text-align: center;
+
 
 }
 
-.rct {
+.left .rct button {
     color: brown;
+    margin-top: auto;
 }
 
-.mmr {
+.left .mmr button {
     color: orangered;
+    margin-top: 3rem;
+
 }
 
-.vbl {
+.left .vbl button {
     color: green;
+    margin-top: 4rem;
 }
 
-.vsl {
+.left .vsl button {
     color: rgb(10, 10, 55);
+    margin-top: 5rem;
 }
 
 .left button {
     width: 20vw;
-    color: white;
-    background-color:black;
-    border-radius: 10px;
+    height: 20px;
+    color: black;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 2rem;
 }
-.container button{
-    width:20vw;
-    height: 20vh;
-    border-radius: 60px;
+
+.right .ctn {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.container button {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
     text-align: center;
     background-color: rgb(21, 4, 105);
-    
+    margin-left: 20PX;
+    color: white;
+    margin: color purple;
+    text-align: center;
+
 }
